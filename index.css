@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.main {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.content {
+  /*display: flex;
+  justify-content:center;*/
+  border: 2px #c0c0ff solid;
+  border-radius: 5px;
+  font-size: 20px;
+  background-color:aquamarine;
+  padding: 20px;
+}
+
+/*.light{
+  background-color: white;
+  color:black;
+}
+//this area is for toggle to change the background of specified region to dark or light theme
+.dark{
+  background-color: black;
+  color:white;
+}*/
+
+table{
+width:100%;
+}
+
+td:first-child {
+  width:100%;
+}
+
+td:last-child{
+  min-width: 125px;
+}
+
+th{
+text-align:left;
+}
+
+tr:nth-child(even){
+background-color:white;
+}
+
+input, 
+button{
+  font-size: 20px;
+  padding: 5px;
+  border-radius: 5px;
+  border:2px lightgray solid;
+}
+
+button.edit{
+  background-color:greenyellow;
+  color:white;
+}
+
+button.add{
+    background-color:blueviolet;
+    color:white;
+}
+
+button.save{
+  background-color:blue;
+  color:white;
+}
+
+button.delete{
+  background-color:red;
+  color:white;
+}
+
+button.back{
+  background-color:rgb(221, 223, 96);
+  color:white;
+}
+
+button{
+  cursor: pointer;
+}
+
+.task {
+cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
